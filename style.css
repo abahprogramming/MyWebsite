@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#A78295;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.container{
+    width: 800px;
+    margin: 20px auto;
+    background-color: #EFE1D1;
+    color: #331D2C;
+}
+.header{
+    padding: 20px;
+}
+.header .judul{
+    font-size: 38px;
+}
+.header ul li{
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+.header a{
+    text-decoration: none;
+    color: #331D2C;
+    border-radius: 5px;
+    transition: 0.5s;
+    padding: 5px;
+}
+.header a:hover{
+background-color: #3F2E3E;
+color: #EFE1D1;
+}
+.hero{
+    height: 300px;
+    background-image: url(img/cartoon.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-top: 1px solid #A78295;
+    border-bottom: 1px solid #A78295;
+    
+}
+.content{
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+.content .write{
+    margin-bottom: 20px;
+}
+.content .write p{
+    margin-top: -2px;
+    font-size: 12px;
+    
+}
+.content .write a{
+    text-decoration: none;
+    color: #A78295;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.copy{
+    padding: 20px;
+    background-color: #331D2C;
+    margin-top: 15px;
+}
+.copy p{
+    color: #EFE1D1;
+    text-align: center;
+    font-size: 14px;
+}
